@@ -56,14 +56,14 @@ a {
 /* ========= Header ======== */
 .fixed-header {
     background: #e6f0ff;
-    padding-top: 2.6rem;
+    padding-top: 26px;
     position: sticky;
-    top: -2.6rem;
+    top: -26px;
     z-index: 1;
 }
 .hero-wrap {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     position: relative;
     background: #e6f0ff;
     height: calc(100vh - 90px);
@@ -116,7 +116,7 @@ a {
     font-size: 1.8rem;
     line-height: 1.5;
     font-weight: 500;
-    letter-spacing: 0.018rem;
+    letter-spacing: 0.18px;
 }
 
 .hero .title {
@@ -124,7 +124,7 @@ a {
     color: #000336;
     font-size: 6rem;
     font-weight: 610;
-    line-height: 7.6rem;
+    line-height: 1.27;
 }
 
 .hero .decs {
@@ -132,7 +132,7 @@ a {
     color: #5a6473;
     font-size: 1.8rem;
     font-weight: 400;
-    line-height: 3.2rem;
+    line-height: 1.8;
 }
 
 .hero-cta {
@@ -148,8 +148,8 @@ a {
 
 /* ======== Clients ======== */
 .clients {
-    margin-top: 7.9rem;
-    padding: 4.3rem 16.5rem 4.1rem 16.5rem;
+    margin-top: 79px;
+    padding: 43px 165px 41px 165px;
 }
 
 .clients .row {
@@ -161,7 +161,7 @@ a {
     color: #7d8589;
     font-size: 1.6rem;
     font-weight: 500;
-    line-height: 2rem;
+    line-height: 1.25;
 }
 
 .clients .row-decs {
@@ -173,18 +173,18 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 109rem;
-    height: 9.1rem;
+    width: 1090px;
+    height: 91px;
 }
 
 .clients .images img:nth-child(3) {
-    margin-top: 1rem;
+    margin-top: 10px;
 }
 
 /* ======== Guides ======== */
 .guides {
-    margin-top: 4rem;
-    padding: 7.9rem 37.8rem;
+    margin-top: 40px;
+    padding: 79px 378px;
 }
 
 .guides .sub-title {
@@ -192,7 +192,7 @@ a {
     text-align: center;
     font-size: 3.5rem;
     font-weight: 600;
-    line-height: 3.5rem;
+    line-height: 1;
     position: relative;
 }
 
@@ -200,30 +200,30 @@ a {
     content: "";
     display: inline-block;
     position: absolute;
-    top: -1.4rem;
-    left: calc(50% - 4.1rem / 2);
+    top: -44px;
+    left: calc(50% - 41px / 2);
     /* hoac dung left: 50%; transform: translateX(-50%) */
-    width: 4.1rem;
-    height: 0.4rem;
-    border-radius: 1.2rem;
+    width: 41px;
+    height: 4px;
+    border-radius: 12px;
     background: #000339;
 }
 
 .guides .decs {
-    width: 45.9rem;
+    width: 459px;
     max-width: 100%;
     margin: 20px auto 0;
     color: #5a6473;
     text-align: center;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 3rem;
+    line-height: 1.875;
 }
 
 .list-guide {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 7rem;
+    margin-top: 70px;
 }
 
 .list-guide .guide-item {
@@ -231,12 +231,12 @@ a {
 }
 
 .list-guide .title {
-    margin-top: 2.6rem;
-    margin-bottom: 1rem;
+    margin-top: 26px;
+    margin-bottom: 10px;
     color: #3b3c45;
     font-size: 2rem;
     font-weight: 500;
-    line-height: 2.2rem;
+    line-height: 1.1;
 }
 
 .list-guide .link {
@@ -250,7 +250,7 @@ a {
 }
 
 .guide-cta {
-    margin-top: 5rem;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -260,7 +260,7 @@ a {
 
 /* ======== Featured ======== */
 .featured {
-    margin-top: 4.1rem;
+    margin-top: 41px;
     background: #f5fafe;
     padding: 110px 0;
 }
@@ -269,20 +269,20 @@ a {
     color: #000339;
     font-size: 3.5rem;
     font-weight: 600;
-    line-height: 3.5rem;
+    line-height: 1;
 }
 
 .featured header .row {
     display: flex;
     justify-content: space-between;
-    margin-top: 1.5rem;
+    margin-top: 15px;
 }
 
 .featured header .decs {
     color: #5a6473;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 3rem;
+    line-height: 1.875;
 }
 
 .featured header .link {
@@ -298,53 +298,53 @@ a {
 }
 
 .featured .list {
-    margin-top: 7rem;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
 }
 
 .featured .body {
-    margin: 1.7rem 0rem 2.4rem 2rem;
+    margin: 17px 0 24px 20px;
 }
 
 .featured .item {
     background: #fff;
     border-radius: 12px;
-    max-width: calc((1110px - 6rem) / 3);
+    max-width: calc((1110px - 60px) / 3);
 }
 .featured .item .title a {
     color: #000339;
     font-size: 2rem;
     font-weight: 600;
-    line-height: 2rem;
+    line-height: 1;
 }
 
 .featured .item .desc {
-    margin-top: 1.1rem;
+    margin-top: 11px;
     color: #a3a6ab;
     font-size: 1.4rem;
     font-weight: 500;
 }
 
 .featured .info {
-    margin-top: 2.1rem;
+    margin-top: 21px;
     display: flex;
     align-items: center;
 }
 
 .featured .item .label {
     margin-left: 8px;
-    margin-right: 2.2rem;
+    margin-right: 22px;
     color: #4d4d52;
     font-size: 1.4rem;
     font-weight: 500;
-    letter-spacing: 0.014rem;
+    letter-spacing: 0.14px;
 }
 
 /* ======== Stats ======== */
 .stats {
-    margin-top: 7.5rem;
-    padding: 5rem 0;
+    margin-top: 75px;
+    padding: 50px 0;
 }
 
 .stats .content {
@@ -367,8 +367,8 @@ a {
 .stats .img-block .image {
     display: block;
     margin-left: auto;
-    width: 40rem;
-    height: 46rem;
+    width: 400px;
+    height: 46px;
 }
 
 .stats .info {
@@ -377,42 +377,42 @@ a {
 
 .stats .info .sub-title {
     position: relative;
-    width: 26.9rem;
+    width: 269px;
     color: #000339;
     font-size: 3.5rem;
     font-weight: 600;
-    line-height: 4.5rem;
+    line-height: 1.28;
 }
 
 .stats .info .sub-title::before {
     position: absolute;
-    top: -1rem;
+    top: -10px;
     left: 0;
     content: "";
     display: block;
-    width: 4.1rem;
-    height: 0.4rem;
-    border-radius: 1.2rem;
+    width: 41px;
+    height: 4px;
+    border-radius: 12px;
     background: #000339;
 }
 
 .stats .info .desc {
-    width: 30.9rem;
-    margin-top: 2rem;
+    width: 309px;
+    margin-top: 20px;
     color: #5a6473;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 3rem;
+    line-height: 1.875;
 }
 
 .stats-trend {
-    padding: 4.5rem 2.2rem;
+    padding: 45px 22px;
     position: absolute;
     top: 0;
     left: 0;
     background: orange;
-    width: 23.9rem;
-    border-radius: 0rem 0rem 1.2rem 1.2rem;
+    width: 239px;
+    border-radius: 0 0 12px 12px;
     background: #fff;
     box-shadow: 90px 85px 100px 0px rgba(0, 0, 0, 0.06);
 }
@@ -421,31 +421,31 @@ a {
     color: #000339;
     font-size: 2.6rem;
     font-weight: 700;
-    letter-spacing: 0.026rem;
+    letter-spacing: 0.26px;
 }
 
 .stats-trend .icon {
-    width: 2.511rem;
-    height: 1.6034rem;
+    width: 25px;
+    height: 16px;
     margin-left: auto;
 }
 
 .stats-trend .desc {
-    margin-top: 0.8rem;
+    margin-top: 8px;
     color: #a7a7a7;
     font-size: 1.2rem;
     font-weight: 400;
-    line-height: 1.8rem;
+    line-height: 1.5;
 }
 
 .stats-trend .seperate {
-    margin-top: 2.5rem;
-    height: 0.12rem;
+    margin-top: 25px;
+    height: 1.2px;
     background: #e9e9e9;
 }
 
 .stats-trend .avatar-block {
-    margin-top: 2.58rem;
+    margin-top: 25.8px;
     display: flex;
     flex-wrap: wrap;
     gap: 16px 14px;
@@ -456,14 +456,14 @@ a {
 }
 
 .stats-trend .avatar-block .avatar {
-    width: 1.6337rem;
-    height: 1.6337rem;
-    border-radius: 1.6337rem;
+    width: 16.3px;
+    height: 16.3px;
+    border-radius: 16.3px;
     object-fit: 100%;
     margin-left: -3px;
     /* css for avatar without image */
     color: #fff;
-    line-height: 1.6rem;
+    line-height: 16px;
     text-align: center;
     font-size: 0.7rem;
     font-weight: 450;
@@ -498,7 +498,7 @@ a {
 }
 
 .stats .content .row-qty {
-    margin: 11rem 2rem 0 2rem;
+    margin: 110 20px 0 20px;
     justify-content: space-between;
 }
 
@@ -506,11 +506,11 @@ a {
     color: #000;
     font-size: 6.4rem;
     font-weight: 600;
-    line-height: 6.4rem;
+    line-height: 1;
 }
 
 .stats .qty-item .qty-desc {
-    margin-top: 2.4rem;
+    margin-top: 24px;
     color: #7b8087;
     font-size: 1.8rem;
     font-weight: 500;
@@ -518,13 +518,13 @@ a {
 
 /* ======== Subscription ======== */
 .subscription {
-    margin-top: 5.1rem;
-    padding: 5.1rem 0 5.5rem;
+    margin-top: 51px;
+    padding: 51px 0 55px;
 }
 
 .subscription .content {
-    margin-top: 5rem;
-    border-radius: 2rem;
+    margin-top: 50px;
+    border-radius: 20px;
     background: #063183;
 }
 
@@ -533,26 +533,26 @@ a {
 }
 
 .subscription .info {
-    padding-top: 12.9rem;
-    margin-left: 8rem;
-    width: 67rem;
-    height: 36.9rem;
+    padding-top: 129px;
+    margin-left: 80px;
+    width: 670px;
+    height: 369px;
 }
 
 .subscription .sub-title {
-    margin-bottom: 1.5rem;
+    margin-bottom: 15px;
     color: #fff;
     font-size: 3.5rem;
     font-weight: 600;
-    line-height: 3.5rem;
+    line-height: 1;
 }
 
 .subscription .desc {
-    margin-bottom: 2rem;
+    margin-bottom: 20px;
     color: #fff;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 3rem;
+    line-height: 1.875;
 }
 
 .subscription .btn {
@@ -560,21 +560,21 @@ a {
     text-align: center;
     font-size: 1.3rem;
     background: #fff;
-    min-width: 15.1rem;
+    min-width: 151px;
 }
 
 .subscription .image {
     position: absolute;
-    top: -5.09rem;
-    left: 67rem;
-    width: 21.9rem;
-    height: 43.9rem;
+    top: -50px;
+    left: 670px;
+    width: 219px;
+    height: 439px;
 }
 
 /* ======== Footer ======== */
 .footer {
-    margin-top: 5.5rem;
-    padding: 5rem 0 5.5rem;
+    margin-top: 55px;
+    padding: 50px 0 55px;
 }
 
 .footer .row {
@@ -583,12 +583,12 @@ a {
 }
 
 .footer .column:last-child {
-    width: 25.7rem;
-    height: 25.5rem;
+    width: 257px;
+    height: 255px;
 }
 
 .footer .heading {
-    margin-bottom: 4.2rem;
+    margin-bottom: 42px;
     color: #1c1c1d;
     font-family: Lato, sans-serif;
     font-size: 2rem;
@@ -596,7 +596,7 @@ a {
 }
 
 .footer .item {
-    margin-bottom: 1.8rem;
+    margin-bottom: 18px;
 }
 
 .footer .desc,
@@ -608,12 +608,12 @@ a {
 }
 
 .footer .social-icon {
-    margin-top: 4rem;
+    margin-top: 40px;
 }
 
 .footer .row:nth-child(2) {
     align-items: center;
-    margin-top: 6.3rem;
+    margin-top: 63px;
 }
 
 .footer .copyright {

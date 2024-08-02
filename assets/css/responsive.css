@@ -74,6 +74,22 @@
     .separate {
         border-top: 1px solid #ebebeb;
     }
+
+    .hero {
+        margin-top: 100px;
+    }
+
+    .hero .info {
+        width: 100%;
+    }
+
+    .hero-img {
+        width: 50%;
+    }
+
+    .clients .images {
+        flex-wrap: wrap;
+    }
 }
 
 /* Tablet */
