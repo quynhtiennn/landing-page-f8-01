@@ -10,6 +10,7 @@
 
 /* Tablet & mobile */
 @media screen and (max-width: 991.98px) {
+
     .navbar {
         position: relative;
     }
@@ -108,8 +109,8 @@
         gap: 20px;
     }
 
-    .featured .item {
-        max-width: calc((1110px - 60px) / 2);
+    .featured .item:nth-child(3){
+    visibility: hidden;
     }
 
     .stats .row:nth-child(1) {

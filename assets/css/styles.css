@@ -16,6 +16,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+
 }
 
 /* Common */
@@ -23,8 +24,8 @@ a {
     text-decoration: none;
 }
 .content {
-    max-width: calc(100% - 48px);
     width: 1110px;
+    max-width: calc(100% - 48px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -142,7 +143,7 @@ a {
 
 .hero-img {
     position: absolute;
-    right: calc((100vw - 1110px) / 2 - 100px);
+    right: 48px;
     bottom: 0;
 }
 
@@ -173,8 +174,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1090px;
-    height: 91px;
+    flex-wrap: wrap;
+    /* width: 1090px;
+    height: 91px; */
 }
 
 .clients .images img:nth-child(3) {
@@ -567,7 +569,7 @@ a {
 .subscription .image {
     position: absolute;
     top: -50px;
-    left: 670px;
+    right: 220px;
     width: 219px;
     height: 439px;
 }
